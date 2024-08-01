@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node crud/**/*.js"
+    "test": "node crud/*.js"
   },
   "author": "",
   "license": "ISC",
