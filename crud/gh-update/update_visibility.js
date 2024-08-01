@@ -1,11 +1,11 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = '.jpgreportlife';
+const repoName = 'api-gh-node';
 const updatedRepoVisibility = 'private';
 
 octokit.request(`PATCH /repos/${repoOwner}/${repoName}`, {
