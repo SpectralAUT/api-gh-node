@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "crud/gh-create/**/*"
+    "test": "node ./crud/*.js"
   },
   "author": "",
   "license": "ISC",

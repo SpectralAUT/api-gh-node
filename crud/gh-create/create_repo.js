@@ -1,16 +1,16 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
-const newRepoName = 'api-gh-node';
+const newRepoName = 'net-bash-setup';
 const newRepoDescription = 'This is a new repository';
 
 const response = await octokit.request('POST /user/repos', {
   name: newRepoName,
   description: newRepoDescription,
-  private: false,
+  private: true,
   has_issues: true,
   has_projects: true,
   has_wiki: true,
