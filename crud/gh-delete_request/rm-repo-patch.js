@@ -1,7 +1,6 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  // auth: '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'
   auth: 'TOKEN'
 });
 

@@ -1,7 +1,7 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: 'TOKEN'
 });
 
 const repoOwner = 'SpectralAUT';
