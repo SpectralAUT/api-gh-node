@@ -1,7 +1,7 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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S'
 });
 
 const newRepoName = 'net-bash-setup';
