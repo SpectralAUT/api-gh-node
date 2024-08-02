@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 
 const githubUsername = 'juannodecoorp@gmail.com';
-const githubPassword = '$$$$#FOV78sbxss6567&&sxns';
+const githubPassword = '***************';
 
 const scopes = [
   'repo',
