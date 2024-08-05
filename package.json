@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "for file in ./crud/*.js; do node \"$file\"; done"
+    "test": "glob-run ./crud/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "child_process": "^1.0.2",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
+    "glob-run": "^0.1.7",
     "octokit": "^4.0.2",
     "p-queue": "^8.0.1",
     "queue": "^7.0.0"
