@@ -1,0 +1,324 @@
+________________________________________
+[tree -d > my_tree_structure.txt]
+________________________________________
+________________________________________
+________________________________________
+├── crud
+│   ├── gh-create
+│   ├── gh-delete_request
+│   ├── gh-login
+│   ├── gh-update
+│   ├── sec
+│   └── utils
+│       ├── token-manager
+│       └── workflows
+│           ├── delete-req
+│           └── get-workflows
+├── manual_report
+│   ├── auth
+│   ├── ci
+│   └── create
+└── node_modules
+    ├── accepts
+    ├── array-flatten
+    ├── asynckit
+    │   └── lib
+    ├── axios
+    │   ├── dist
+    │   │   ├── browser
+    │   │   ├── esm
+    │   │   └── node
+    │   └── lib
+    │       ├── adapters
+    │       ├── cancel
+    │       ├── core
+    │       ├── defaults
+    │       ├── env
+    │       │   └── classes
+    │       ├── helpers
+    │       └── platform
+    │           ├── browser
+    │           │   └── classes
+    │           ├── common
+    │           └── node
+    │               └── classes
+    ├── before-after-hook
+    │   └── lib
+    ├── body-parser
+    │   ├── lib
+    │   │   └── types
+    │   └── node_modules
+    │       └── qs
+    │           ├── dist
+    │           ├── lib
+    │           └── test
+    ├── bottleneck
+    │   ├── lib
+    │   ├── scripts
+    │   ├── src
+    │   │   └── redis
+    │   └── test
+    │       └── spawn
+    ├── bytes
+    ├── call-bind
+    │   └── test
+    ├── child_process
+    ├── combined-stream
+    │   └── lib
+    ├── content-disposition
+    ├── content-type
+    ├── cookie
+    ├── cookie-signature
+    ├── debug
+    │   ├── node_modules
+    │   │   └── ms
+    │   └── src
+    ├── define-data-property
+    │   └── test
+    ├── delayed-stream
+    │   └── lib
+    ├── depd
+    │   └── lib
+    │       └── browser
+    ├── destroy
+    ├── ee-first
+    ├── encodeurl
+    ├── escape-html
+    ├── es-define-property
+    │   └── test
+    ├── es-errors
+    │   └── test
+    ├── etag
+    ├── eventemitter3
+    │   └── dist
+    ├── express
+    │   ├── lib
+    │   │   ├── middleware
+    │   │   └── router
+    │   └── node_modules
+    │       ├── cookie-signature
+    │       ├── merge-descriptors
+    │       ├── path-to-regexp
+    │       └── qs
+    │           ├── dist
+    │           ├── lib
+    │           └── test
+    ├── finalhandler
+    ├── follow-redirects
+    ├── form-data
+    │   └── lib
+    ├── forwarded
+    ├── fresh
+    ├── fs
+    ├── function-bind
+    │   └── test
+    ├── get-intrinsic
+    │   └── test
+    ├── gopd
+    │   └── test
+    ├── hasown
+    ├── has-property-descriptors
+    │   └── test
+    ├── has-proto
+    │   └── test
+    ├── has-symbols
+    │   └── test
+    │       └── shams
+    ├── http-errors
+    ├── iconv-lite
+    │   ├── encodings
+    │   │   └── tables
+    │   └── lib
+    ├── inherits
+    ├── ipaddr.js
+    │   └── lib
+    ├── lru-cache
+    │   └── dist
+    │       ├── commonjs
+    │       └── esm
+    ├── media-typer
+    ├── merge-descriptors
+    ├── methods
+    ├── mime
+    │   └── src
+    ├── mime-db
+    ├── mime-types
+    │   └── node_modules
+    │       └── mime-db
+    ├── ms
+    ├── negotiator
+    │   └── lib
+    ├── object-inspect
+    │   ├── example
+    │   └── test
+    │       └── browser
+    ├── @octokit
+    │   ├── app
+    │   │   ├── dist-node
+    │   │   ├── dist-src
+    │   │   │   └── middleware
+    │   │   │       └── node
+    │   │   ├── dist-types
+    │   │   │   └── middleware
+    │   │   │       └── node
+    │   │   └── dist-web
+    │   ├── auth-app
+    │   │   ├── dist-node
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── auth-oauth-app
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── auth-oauth-device
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── auth-oauth-user
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── auth-token
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── auth-unauthenticated
+    │   │   ├── dist-node
+    │   │   ├── dist-src
+    │   │   ├── dist-types
+    │   │   └── dist-web
+    │   ├── core
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── endpoint
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   │   └── util
+    │   │   └── dist-types
+    │   │       └── util
+    │   ├── graphql
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── oauth-app
+    │   │   ├── dist-node
+    │   │   ├── dist-src
+    │   │   │   ├── methods
+    │   │   │   └── middleware
+    │   │   │       ├── aws-lambda
+    │   │   │       ├── node
+    │   │   │       └── web-worker
+    │   │   └── dist-types
+    │   │       ├── methods
+    │   │       └── middleware
+    │   │           ├── aws-lambda
+    │   │           ├── node
+    │   │           └── web-worker
+    │   ├── oauth-authorization-url
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── oauth-methods
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── openapi-types
+    │   ├── openapi-webhooks-types
+    │   ├── plugin-paginate-graphql
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── plugin-paginate-rest
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   │   └── generated
+    │   │   └── dist-types
+    │   │       └── generated
+    │   ├── plugin-rest-endpoint-methods
+    │   │   ├── dist-src
+    │   │   │   └── generated
+    │   │   └── dist-types
+    │   │       └── generated
+    │   ├── plugin-retry
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── plugin-throttling
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   │   └── generated
+    │   │   └── dist-types
+    │   │       └── generated
+    │   ├── request
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── request-error
+    │   │   ├── dist-src
+    │   │   └── dist-types
+    │   ├── types
+    │   │   └── dist-types
+    │   │       └── generated
+    │   ├── webhooks
+    │   │   ├── dist-bundle
+    │   │   ├── dist-src
+    │   │   │   ├── event-handler
+    │   │   │   ├── generated
+    │   │   │   └── middleware
+    │   │   │       └── node
+    │   │   └── dist-types
+    │   │       ├── event-handler
+    │   │       ├── generated
+    │   │       └── middleware
+    │   │           └── node
+    │   └── webhooks-methods
+    │       ├── dist-node
+    │       ├── dist-src
+    │       │   └── node
+    │       ├── dist-types
+    │       │   └── node
+    │       └── dist-web
+    ├── octokit
+    │   ├── dist-bundle
+    │   ├── dist-src
+    │   └── dist-types
+    ├── on-finished
+    ├── parseurl
+    ├── path-to-regexp
+    ├── p-queue
+    │   └── dist
+    ├── proxy-addr
+    ├── proxy-from-env
+    ├── p-timeout
+    ├── qs
+    │   ├── dist
+    │   ├── lib
+    │   └── test
+    ├── queue
+    ├── range-parser
+    ├── raw-body
+    ├── safe-buffer
+    ├── safer-buffer
+    ├── send
+    ├── serve-static
+    ├── set-function-length
+    ├── setprototypeof
+    │   └── test
+    ├── side-channel
+    │   └── test
+    ├── statuses
+    ├── toidentifier
+    ├── type-is
+    ├── @types
+    │   └── aws-lambda
+    │       ├── common
+    │       └── trigger
+    │           └── cognito-user-pool-trigger
+    ├── universal-github-app-jwt
+    │   ├── lib
+    │   └── test
+    ├── universal-user-agent
+    ├── unpipe
+    ├── utils-merge
+    └── vary
+
+317 directories
