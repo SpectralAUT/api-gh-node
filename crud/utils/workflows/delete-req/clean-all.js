@@ -1,11 +1,13 @@
 import { Octokit } from 'octokit';
 
+
+// [Prod]
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = 'octokit-node-crud';
+const repoName = 'api-gh-node';
 let workflowRuns = [];
 
 async function getAllWorkflowRuns() {

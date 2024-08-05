@@ -2,11 +2,11 @@ import { Octokit } from 'octokit';
 import PQueue from 'p-queue';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = 'octokit-node-crud';
+const repoName = 'api-gh-node';
 
 async function deleteFailedWorkflowRuns() {
   const queue = new PQueue({ concurrency: 10 }); // adjust the concurrency level as needed

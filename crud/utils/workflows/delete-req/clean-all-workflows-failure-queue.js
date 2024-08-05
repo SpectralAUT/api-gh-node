@@ -6,7 +6,7 @@ const octokit = new Octokit({
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = 'octokit-node-crud';
+const repoName = 'api-gh-node';
 const batchSize = 50;
 
 async function deleteFailedWorkflowRuns() {

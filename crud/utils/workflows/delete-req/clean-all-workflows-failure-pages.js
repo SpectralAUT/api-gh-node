@@ -1,11 +1,11 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = 'octokit-node-crud';
+const repoName = 'api-gh-node';
 
 async function deleteFailedWorkflowRuns() {
   let page = 1;

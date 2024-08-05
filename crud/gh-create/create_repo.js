@@ -1,10 +1,10 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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S'
+  auth: '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'
 });
 
-const newRepoName = 'net-bash-setup';
+const newRepoName = 'bash-net-automation';
 const newRepoDescription = 'This is a new repository';
 
 const response = await octokit.request('POST /user/repos', {
