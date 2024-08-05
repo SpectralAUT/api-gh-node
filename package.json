@@ -4,8 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node ./crud/*.js",
-    "test:workflows": "node ./crud/utils/workflows/*.js"
+    "test": "for file in ./crud/*.js; do node \"$file\"; done"
   },
   "author": "",
   "license": "ISC",
