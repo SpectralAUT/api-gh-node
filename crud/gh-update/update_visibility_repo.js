@@ -1,12 +1,12 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
 const repoOwner = 'SpectralAUT';
-const repoName = 'api-gh-node';
-const updatedRepoVisibility = 'public';
+const repoName = 'tech_cv';
+const updatedRepoVisibility = 'private';
 
 octokit.request(`PATCH /repos/${repoOwner}/${repoName}`, {
   visibility: updatedRepoVisibility
