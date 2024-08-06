@@ -4,8 +4,8 @@ const octokit = new Octokit({
   auth: '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'
 });
 
-const newRepoName = 'bash-net-automation';
-const newRepoDescription = 'This is a new repository';
+const newRepoName = 'tech_cv';
+const newRepoDescription = 'Centralized repository for my latest CV updates, documentation, and career milestones. 📝💼';
 
 const response = await octokit.request('POST /user/repos', {
   name: newRepoName,
