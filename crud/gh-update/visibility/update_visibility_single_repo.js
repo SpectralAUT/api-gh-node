@@ -1,12 +1,12 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
-const repoOwner = 'SpectralAUT';
-const repoName = 'tech_cv';
-const updatedRepoVisibility = 'private';
+const repoOwner = 'aijuannode';
+const repoName = '.jpgreportlife';
+const updatedRepoVisibility = 'public';
 
 octokit.request(`PATCH /repos/${repoOwner}/${repoName}`, {
   visibility: updatedRepoVisibility

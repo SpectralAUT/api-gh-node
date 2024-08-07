@@ -1,10 +1,10 @@
 import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 });
 
-const repoOwner = 'SpectralAUT';
+const repoOwner = 'aijuannode';
 const updatedRepoVisibility = 'public';
 
 octokit.request(`GET /users/${repoOwner}/repos`, {
